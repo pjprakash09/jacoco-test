@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AddSomeNumbersTest {
 
+    @Test
     int addTwoNumbers() {
         AddSomeNumbers addSomeNumbers = new AddSomeNumbers();
         int result = addSomeNumbers.addTwoNumbers(50, 30);
